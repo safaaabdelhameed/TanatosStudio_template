@@ -1,6 +1,11 @@
 /* global $, alert, console*/
 
+// loader
+$(document).ready(function(){
+  $(".loader").delay(2000).fadeOut('slow');
+});
 
+// Go to top
 var mybutton = document.getElementById('myBtn');
 
 window.onscroll = function() {
